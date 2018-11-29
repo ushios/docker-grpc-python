@@ -1,0 +1,4 @@
+version: '3'
+services:
+  python:
+    build: ./python_3.6-alpine
