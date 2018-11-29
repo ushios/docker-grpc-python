@@ -1,0 +1,11 @@
+version: '2'
+jobs:
+  build:
+    working_directory: ~/
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: build
+          command: |
+            docker-compose build
